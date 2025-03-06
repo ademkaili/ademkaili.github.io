@@ -18,7 +18,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     padding: 5px;
-    background: #eee;
+    background: #cce5ff;
     display: inline-block;
 }
 #cv-photo img {
@@ -34,7 +34,7 @@ body {
     letter-spacing: -1px;
 }
 #cv-intro h1 span {
-    color: rgb(226,0,26);
+    color: rgb(0, 102, 204);
 }
 #cv-intro::after {
     background: url('images/ligne.png'); /* Dossier "images" est un sous-dossier de "css" (à créer) */
@@ -51,7 +51,7 @@ body {
     margin-bottom: 15px;
 }
 .rubrique h2 {
-    color: rgb(226,0,26);
+    color: rgb(0, 102, 204);
 }
 .rubrique h2::before{
     margin-right: 5px;
@@ -77,7 +77,7 @@ body {
     top: 0;
     display: block;
     background: linear-gradient(to bottom, #ffffff 0%,
-        #E2001A 7%, #E2001A, #ffffff 100%);
+        #007BFF 7%, #007BFF, #ffffff 100%);
     content:"";
 }
 #parcours li {
@@ -88,7 +88,7 @@ body {
 }
 #parcours .date .glyphicon-record::before {
     background: #FFFFFF;
-    color: #555;
+    color: #0056b3;
 }
 #parcours .date {
     width: 75px;
@@ -100,10 +100,10 @@ body {
 #parcours .details {
     width: 325px;
     display: inline-block;
-    background: #eee;
+    background: #cce5ff;
     position: relative;
     padding: 10px 10px 0 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #99c2ff;
     margin: -4px -12px 20px 0;
 }
 #parcours .details::after {
@@ -115,7 +115,7 @@ body {
     height: 0;
     width: 0;
     border: solid transparent;
-    border-right-color: #eee;
+    border-right-color: #cce5ff;
     border-width: 8px;
     pointer-events: none;
 }
